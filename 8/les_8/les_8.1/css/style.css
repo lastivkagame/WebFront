@@ -1,0 +1,68 @@
+header
+{
+    height: 70px;
+    opacity: 0.8;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+
+.max-height-carusel
+{
+    max-height: 500px;
+}
+
+#carouselExampleIndicators ol.carousel-indicators li
+{
+     background-color: black;
+}
+
+#carouselExampleIndicators span
+{
+    color: black;
+    background-color: black;
+    border-radius: 4px;
+}
+/* 
+.carousel-indicators a
+{
+    background-color: black;
+    color: black;
+} */
+
+.my-cart img
+{
+    height: 200px;
+
+}
+
+.min-width-team-img
+{
+    min-width: 140px;
+}
+
+.min-width-team-img img
+{
+    max-width: 140px;
+}
+.even-section img:last-of-type
+{
+    /* max-width: 140px; */
+    min-width: 140px;
+}
+
+.even-section
+{
+    background-color: rgb(221, 207, 207);
+}
+
+.even-section .card-body:after
+{
+    /* content: 1;
+    border-top: 15px solid rgb(248, 252, 7);
+    border-right: 15px solid transparent;
+    border-left: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    transform: rotate(180degree); */
+    
+}

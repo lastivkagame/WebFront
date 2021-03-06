@@ -1,0 +1,82 @@
+.registration
+{
+    background-color: rgb(221, 221, 221);
+    /* height: 70vh; */
+    width: 40%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+}
+
+.registration img
+{
+    width: 80%;
+    margin: 0  auto;
+}
+
+.form-container
+{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    padding-top: 0px;
+}
+
+.form-container input
+{
+    margin-top: 10px;
+    padding: 10px;
+}
+
+input, label {
+    font-family: Cooper;
+    margin-bottom: 10px;
+}
+
+button
+{
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 50%;
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 15px;
+    border-color: violet;
+    color: violet;
+    font-family: Cooper;
+    font-size: 17px;
+}
+
+button:hover
+{
+    background-color: #7969c2;
+    color: rgb(221, 221, 221);
+}
+
+.red-border
+{
+    border: 3px solid red;
+}
+
+.resalt
+{
+    display: flex;
+    margin: 0 auto;
+    margin-top: 30px;  
+    background-color: #7969c2;
+    padding: 10px;
+    border-radius: 5px;
+    width: 65%;
+    justify-content: center;
+}
+
+.resalt input
+{
+    padding: 5px;
+}
+
+#resaltDiv
+{
+    display: none;
+}

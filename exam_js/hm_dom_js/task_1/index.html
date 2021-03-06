@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="store">
+            <div class="book">
+                <img src="img/book1.jpg" alt="" />
+                <p class="book-text">Learning JavaScript: The Definitive Guide<br /> <span class="little-text">David
+                        Flanagan </span>
+                    <span class="price">16$</span>
+                </p>
+                <button onclick="SelectBook('Learning JavaScript: The Definitive Guide')" class="select-book">Select</button>
+            </div>
+            <div class="book">
+                <img src="img/book2.png" alt="" />
+                <p class="book-text">JavaScript and jQuery. Front-End Web Development<br /> <span class="little-text">
+                        Dan Dwilet </span>
+                    <span class="price">22$</span>
+                </p>
+                <button onclick="SelectBook('Learning JavaScript: The Definitive Guide')" class="select-book">Select</button>
+            </div>
+            <div class="book">
+                <img src="img/book3.jpg" alt="" />
+                <p class="book-text">You don't Know JS Scopr & Clourses<br /> <span class="little-text">David
+                        Egle Simpson </span>
+                    <span class="price">20$</span>
+                </p>
+                <button class="select-book">Select</button>
+            </div>
+        </div>
+        <div class="shop-form">
+            <div>
+                <p>Book: </p>
+                <input id="choosen-book" disabled type="text" placeholder="book" />
+            </div>
+            <div>
+                <p>Quality: </p>
+                <input type="number" placeholder="1" />
+            </div>
+            <div>
+                <p>Name: </p>
+                <input type="text" placeholder="book" />
+            </div>
+            <div>
+                <p>Delivery<br /> address: </p>
+                <input class="long-input" type="text" placeholder="addres" />
+            </div>
+            <div>
+                <p>Date: </p>
+                <input type="text" placeholder="date" />
+            </div>
+            <div>
+                <p>Comment: </p>
+                <input class="long-input" type="text" placeholder="addres" />
+            </div>
+            <button class="select-book order-btn">Select</button>
+        </div>
+    </div>
+    <div id="resalt"></div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

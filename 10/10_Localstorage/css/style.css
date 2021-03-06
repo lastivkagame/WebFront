@@ -1,0 +1,173 @@
+body
+{
+    padding: 0;    
+    /* margin: 0 auto; */
+    /* width: 30%; */
+    width: 400px;
+    /* background-color: rgb(255, 115, 0); */
+}
+
+.main-container
+{
+    background-color: rgba(255, 122, 14, 0.829);
+    padding: 50px;
+}
+
+.member-login
+{
+    background-color: rgb(241, 239, 239);
+    box-shadow: 0px 4px 22px -3px #000000;
+    padding: 30px;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+form
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+h1
+{
+    font-family: Cooper;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+form input
+{
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-weight: bold;
+    color: rgb(163, 161, 161);
+}
+
+form button a
+{
+    text-decoration: none;
+    color: white;
+}
+
+form button
+{
+    background-color: rgb(38, 185, 38);
+    padding: 10px;
+    color: white;
+    font-family: Cooper;
+    font-size: 15px;
+    border: none;
+    border-bottom: 5px solid rgb(89, 131, 6);
+}
+
+form button:hover
+{
+    background-color: rgb(241, 239, 239);
+    border: 5px solid rgb(89, 131, 6);
+}
+
+form button a:hover
+{
+    color: rgb(89, 131, 6);
+}
+
+.member-login p 
+{
+    text-align: center;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.member-login p a
+{
+    text-decoration: none;
+    color: rgba(255, 122, 14, 0.829);
+    font-family: Cooper;
+    font-size: 12px;
+}
+
+.under-form p
+{
+    color: white;
+    text-align: center;
+    font-family: Cooper;
+}
+
+.blockimg-container
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.img-block
+{
+    display: flex;
+    width: 48%;
+}
+
+.blockimg-container :first-child
+{
+    background-color: rgb(60,90,154);
+    padding: 0px;
+}
+
+.blockimg-container :first-child p
+{
+    background-color: rgb(60,90,154);
+}
+
+.blockimg-container :first-child img
+{
+   height: 45px;
+}
+
+.blockimg-container :last-child
+{
+    background-color: rgb(29, 161, 242);
+}
+
+.blockimg-container :last-child img
+{
+    height: 40px;
+    padding: 2px;
+    background-color: rgb(29, 161, 242);
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+#res_text{
+  text-align: center;
+}
+
+.orange th
+{
+  color: white;
+  background-color: orange;
+}
+
+form button
+{
+  display: flex;
+  background-color: orange;
+  color: white;
+  margin-top: 40px;
+  margin: 0 auto;
+  border: none;
+  padding: 10px 30px;
+}

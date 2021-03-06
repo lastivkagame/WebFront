@@ -1,0 +1,176 @@
+body
+{
+    background-color: lightgray;
+}
+
+p{
+    font-family: Cooper;
+    color: teal;
+    padding: 0px 20px;
+    margin: 10px;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+input
+{
+    font-family: Cooper;
+    color: rgb(77, 77, 77);
+    border: 2px solid teal;
+    border-radius: 3px;
+    padding: 10px 20px;
+    margin: 5px;
+}
+
+.bg
+{
+    background-image: url(../img/login-bg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    /* flex-direction: column; */
+    padding-bottom: 50px;
+}
+
+button
+{
+    margin: 0 auto;
+    padding: 8px 60px;
+    border-radius: 3px;
+    border: 3px solid teal;
+    border: none;
+    background-color: transparent;
+    color: teal;
+    margin-bottom: -20px;
+    margin-top: 15px;
+    font-family: Cooper;
+}
+
+button:hover
+{
+    background-color: teal;
+    color: white;
+    border: none;
+}
+
+button::selection, button:active
+{
+border: none;
+}
+
+.flex-col
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.bg form
+{
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-end;
+}
+
+.img-login
+{
+    width: 80px;
+    margin-left: -20px;
+    margin-bottom: 5px
+}
+
+.img-login:hover
+{
+    /* opacity: 0.9; */
+    border: 3px solid teal;
+    background-color: white;
+    border-radius: 65px;
+}
+
+section
+{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: flex-end;
+    align-self: flex-end;
+}
+
+#login_space
+{
+    display: flex;
+}
+
+#signin_space
+{
+    display: none;
+}
+
+header
+{
+   
+    background-image: url(../img/bg_4.jpg);
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.up-menu
+{
+     display: flex;
+     justify-content: flex-end;
+     align-items: center;
+     align-self: center;
+}
+
+#user-welcome
+{
+    text-align:center;
+    color: rgb(0, 0, 0);
+    vertical-align: middle;
+    padding-top: 20px;
+}
+
+#circle
+{
+    border-radius: 50px;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    padding: 15px 18px;
+    margin-top: 10px;
+}
+
+#circle:hover
+{
+    background-color: orange;
+}
+
+#myprofile
+{
+    margin: 0 auto;
+    justify-content: flex-start;
+    text-align: center;
+    background-image: url(../img/login-bg-mountains.png);
+    background-size: cover;
+}
+
+#myprofile div
+{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+img
+{
+    width: 10%;
+    height: 90%;
+}
+
+span
+{
+    text-align: center;
+}

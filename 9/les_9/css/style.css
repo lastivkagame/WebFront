@@ -1,0 +1,46 @@
+/* div
+{
+    width: 200px;
+    height: 200px;
+    background-color: teal;
+    border: 10px solid rgb(44, 231, 125);
+    padding: 15px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    overflow-y: auto;
+    margin-left: 30px;
+}*/
+
+header
+{
+    height: 100px;
+    background-color:rgb(255, 251, 10);
+} 
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+img
+{
+    width:100%;
+}
+
+nav
+{
+    background-color: orange;
+    height: 40px;
+}
+
+.fixed
+{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.fixed ~div
+{
+    margin-top: 40px;
+}

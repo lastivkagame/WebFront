@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>task-2 -> form</title>
+</head>
+
+<body>
+    <div class="registration">
+        <img src="img/logo.png" alt="" />
+        <form class="form-container">
+            <input id="inputname" type="text" placeholder="Name" />
+            <input id="lastnameinput" type="text" placeholder="Last Name" />
+            <div>
+                <input id="meninput" name="sex" type="radio" />
+                <label>Men</label>
+                <input id="womaninput" name="sex" type="radio" />
+                <label>Women</label>
+            </div>
+            <input id="emailinput" type="text" placeholder="E-mail" />
+            <input id="pswinput" type="password" placeholder="Password" />
+            <input id="repswdinput" type="password" placeholder="Repeat password" />
+            <div>
+                <input id="robotinput" type="checkbox" />
+                <label>I'm not a robot</label>
+            </div>
+            <button onclick="RegistrateUser()">Regitrate</button>
+        </form>
+    </div>
+    <div id="resaltDiv" class="resalt">
+        <form>
+            <input id="nameResalt" class="formResalt" type="text" placeholder="name" />
+            <input class="formResalt" type="text" placeholder="lastname" />
+            <input class="formResalt" type="text" placeholder="sex" />
+            <input class="formResalt" type="text" placeholder="email" />
+        </form>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
